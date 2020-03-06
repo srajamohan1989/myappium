@@ -21,6 +21,7 @@ public class UseCase2Scroll extends LaunchDeviceAndApp{
     driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Group 11\"));").click();
     //driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"WebView\"));").click();
     driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Child 10\"));").click();
+    System.out.println("Git test");
 	}
 
 }
